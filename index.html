@@ -49,6 +49,17 @@
       background-color: #ccf2ff;
       border-top: 2px solid #99e6ff;
     }
+    .video-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    iframe {
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+      border-radius: 15px;
+      border: none;
+    }
   </style>
 </head>
 <body>
@@ -60,28 +71,36 @@
     <img src="helpdesk-icon.png" alt="Help Desk Icon">
   </header>
 
-  <section>
+  <section id="reason">
     <h2>Reason for the Plan</h2>
     <p>
       As the Help Desk Supervisor, I have developed this Operations Plan to guide the internal help desk team through the upcoming fiscal year. The plan outlines our mission, vision, and SMART goals that aim to improve our service performance, response times, and overall user satisfaction. This ensures consistent, high-quality IT support that aligns with organizational needs.
     </p>
+
+    <!-- 🎥 Embedded YouTube Video -->
+    <div class="video-container">
+      <h3>🎬 Watch My Presentation</h3>
+      <p>Click play to watch a short video explaining the story behind this plan and how it benefits you.</p>
+      <iframe src="https://www.youtube.com/embed/TQ1GmsaVW1E?si=m0WxnlRvrQlPVwRa" allowfullscreen></iframe>
+      <p><a href="https://youtu.be/TQ1GmsaVW1E?si=m0WxnlRvrQlPVwRa" target="_blank">Watch on YouTube</a></p>
+    </div>
   </section>
 
-  <section>
+  <section id="mission">
     <h2>Mission</h2>
     <p>
       Our mission is to provide reliable, timely, and customer-focused IT support that resolves technical issues efficiently and enhances the user experience. By continuously improving our service processes and communication, we aim to ensure every user receives the best possible support to keep their work uninterrupted and productive.
     </p>
   </section>
 
-  <section>
+  <section id="vision">
     <h2>Vision</h2>
     <p>
       Our vision is to become a proactive, data-driven help desk that empowers users through self-service and innovation, positioning the IT support team as a trusted partner in achieving organizational excellence by 2026.
     </p>
   </section>
 
-  <section>
+  <section id="goals">
     <h2>SMART Goals for Fiscal Year 2025</h2>
 
     <div class="goal">
@@ -125,7 +144,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="feedback">
     <h2>Feedback and Contact</h2>
     <p>
       Your feedback is valuable for continuous improvement. Please share your suggestions or comments regarding this operations plan.
@@ -142,3 +161,4 @@
 
 </body>
 </html>
+
